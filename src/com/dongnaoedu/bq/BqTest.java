@@ -33,7 +33,7 @@ public class BqTest {
             while(i>0){
                 try {
                     Thread.sleep(1000);
-                    System.out.println(" i="+i+" will push");
+                    System.out.println("i="+i+" will push");
                     bq.enqueue(i--);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
