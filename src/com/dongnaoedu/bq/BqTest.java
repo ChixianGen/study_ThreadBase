@@ -36,7 +36,7 @@ public class BqTest {
                     System.out.println(" i="+i+" will push");
                     bq.enqueue(i--);
                 } catch (InterruptedException e) {
-                    //e.printStackTrace();
+                    e.printStackTrace();
                 }
 
             }
