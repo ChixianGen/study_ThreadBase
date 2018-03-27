@@ -13,6 +13,7 @@ public class BqTest {
         Thread threadB = new ThreadPop(bq);
         threadB.setName("Pop");
         int i = 0;
+        System.out.println(123);
         threadB.start();
         threadA.start();
     }
